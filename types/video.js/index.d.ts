@@ -32,7 +32,7 @@
  * @return A player instance
  */
 declare function videojs(id: any, options?: videojs.PlayerOptions, ready?: () => void): videojs.Player;
-export = videojs;
+export default videojs;
 export as namespace videojs;
 
 declare namespace videojs {
